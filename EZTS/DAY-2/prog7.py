@@ -7,7 +7,7 @@ while n>0:
     digit=n%10
     n//=10
     sum+=digit**order
-if sum==n:
+if sum==n1:
     print("it is armstrong")
 else:
     print("it is not armstrong")
