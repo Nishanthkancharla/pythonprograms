@@ -1,13 +1,12 @@
 #program to check armstrong or not
 n=int(input("enter the number"))
-rev=0
+n=n1
+order=len(str(n))
 sum=0
 while n>0:
     digit=n%10
-    if digit==0:
-        rev+=1
     n//=10
-    sum+=digit**rev
+    sum+=digit**order
 if sum==n:
     print("it is armstrong")
 else:
