@@ -1,6 +1,6 @@
 #program to check armstrong or not
 n=int(input("enter the number"))
-n=n1
+n1=n
 order=len(str(n))
 sum=0
 while n>0:
